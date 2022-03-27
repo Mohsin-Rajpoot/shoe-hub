@@ -1,0 +1,740 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(236,142,58);
+background: radial-gradient(circle, rgba(236,142,58,1) 11%, rgba(246,211,183,1) 100%);
+font-family: Arial, Helvetica, sans-serif;
+
+
+.wrap{
+    padding: 30px;
+
+    
+
+    
+
+.upper{
+width: 85%;
+margin: auto;
+border: 3px solid #FDF5EB;
+border-radius: 20px;
+padding: 30px;
+height: 1000px;
+// min-height: min-content;
+background: #FAEBC2;
+// height: auto;
+
+
+// overflow-y: auto;
+//start of nav
+.nav{
+
+display:flex;
+flex-direction: row;
+
+.part1{
+width:20%;
+
+.content{
+    padding-top: 5px;
+    i{
+        border: 3px solid #FDF5EB;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 15px;
+            }
+    h2{
+        display: inline;
+         margin-left: 15px;
+        a{
+            text-decoration: none;
+             color: black;
+        }
+        
+    }
+}
+    
+    
+}
+
+.part2{
+    width: 60%;
+    ul{
+        text-align: center;
+        li{
+            display: inline;
+            list-style: none;
+
+            h5{
+               display: inline;
+               a{
+                   text-decoration: none;
+                   color: black;
+                   padding: 0px 8px 0px 8px;
+                   
+               }
+               a:hover{
+                   color: #EA7726;
+               } 
+            }
+        }
+    }
+}
+
+.part3{
+    width: 20%;
+   
+   .content{
+float: right;
+padding-top: 5px;
+    h5{
+        display:inline;
+        padding-right: 8px;
+     }
+    i{
+        border: 3px solid white;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 12px;
+        
+    }
+   }
+  
+
+}
+//end of nav
+}
+
+.yellow{
+     
+    padding: 20px;
+    
+    .area{
+        height: 300px;
+        border-radius: 20px;
+        margin: auto;
+        background: rgb(242,191,23);
+        background: linear-gradient(194deg, rgba(242,191,23,1) 46%, rgba(240,175,44,1) 52%);
+
+        .nav2{
+            width: 95%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            .content1{
+                width: 20%;
+                h5{
+                    padding-top: 8px;
+                    a{
+                        text-decoration: none;
+                    color:#FBFAf2;
+
+                       span{
+                           color: black;
+                       }
+                    }
+                }
+                
+            }
+            .content2{
+                width: 35%;
+                // text-align: center;
+                 h1{
+                    float: right;
+                 }
+
+            }
+            .content3{
+                // display: flex;
+                width:45%;
+                .content{
+                       float:right;
+                       padding-top: 23px;
+
+                    h5{
+                        display: inline;
+                        padding-right: 3px;
+                    }
+                    .dropbtn {
+                        background-color: #F7D790;
+                        color: black;
+                        padding: .5rem .9rem;
+                        font-size: 16px;
+                        border: none;
+                        border-radius: 10px;
+                        cursor: pointer;
+    
+                      }
+                      
+                      .dropdown {
+                        position: relative;
+                        display: inline-block;
+                      }
+                      
+                      .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: #F7D790;
+                        min-width: 140px;
+                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                        z-index: 1;
+                        border-radius: 10px;
+    
+                      }
+                      
+                      .dropdown-content a {
+                        color: black;
+                        padding: .5rem .9rem;
+                        text-decoration: none;
+                        display: block;
+                      }
+                      
+                     
+                     .dropdown:hover .dropdown-content {
+                        display: block;
+                      }
+                }
+                
+                  
+                  
+            }
+        }
+
+     .boxes{
+        padding-top: 30px;
+     .content{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .box1{
+            background: rgb(240,167,140);
+            background: radial-gradient(circle, rgba(240,167,140,1) 0%, rgba(254,252,249,1) 75%);
+            width: 26%;
+            border-radius: 20px;
+            padding: 15px;
+            position: relative;
+
+           .icons{
+               i{
+                border: 3px solid #FDF5EB;
+                border-radius: 50px;
+                padding: 10px;
+                font-size: 15px;
+               }
+               .lock{
+                   float: right;
+               }
+           }
+          .rectangle{
+              background-color: #E96928;
+              width:60%;
+              height: 120px;
+              margin: auto;
+              border-radius: 30px;
+            
+              .circle{
+                  background-color: #F3C110;
+                  border: 3px solid white;
+                  border-radius: 50%;
+                  width: 50%;
+                  height: 120px;
+                  margin: auto;
+                
+              }
+ 
+          }
+          .img{
+            position: absolute;
+           top: 0;
+           left: 0;
+           text-align: center;
+
+             img{
+               width: 200px;
+                float: left;
+                padding: 60px;
+
+               
+             }
+            }
+         .text{
+             color: #554D9F;
+             text-align: center;
+             padding: 15px;
+             padding-top: 60px;
+             
+         }
+
+
+
+        }
+        
+        .box2{
+            background: rgb(240,167,140);
+            background: radial-gradient(circle, rgba(240,167,140,1) 0%, rgba(254,252,249,1) 75%);
+            width: 26%;
+            border-radius: 20px;
+            padding: 15px;
+            position: relative;
+
+            
+           .icons{
+               i{
+                border: 3px solid #FDF5EB;
+                border-radius: 50px;
+                padding: 10px;
+                font-size: 15px;
+               }
+               .lock{
+                   float: right;
+               }
+           }
+          .rectangle{
+              background-color: #45409C;
+              width:60%;
+              height: 120px;
+              margin: auto;
+              border-radius: 30px;
+            
+              .circle{
+                  background-color: #F3C110;
+                  border: 3px solid white;
+                  border-radius: 50%;
+                  width: 50%;
+                  height: 120px;
+                  margin: auto;
+                
+              }
+             
+                
+        
+            
+          }
+          .img{
+            position: absolute;
+           top: 0;
+           left: 0;
+           text-align: center;
+
+             img{
+               width: 200px;
+                float: left;
+                padding: 60px;
+
+               
+             }
+            }
+         .text{
+             color: #554D9F;
+             text-align: center;
+             padding: 15px;
+             padding-top: 60px;
+             
+         }
+
+
+
+        }
+        
+        .box3{
+            background: rgb(240,167,140);
+            background: radial-gradient(circle, rgba(240,167,140,1) 0%, rgba(254,252,249,1) 75%);
+            width: 26%;
+            border-radius: 20px;
+            padding: 15px;
+            position: relative;
+
+            
+           .icons{
+               i{
+                border: 3px solid #FDF5EB;
+                border-radius: 50px;
+                padding: 10px;
+                font-size: 15px;
+               }
+               .lock{
+                   float: right;
+               }
+           }
+          .rectangle{
+              background-color: #54B069;
+              width:60%;
+              height: 120px;
+              margin: auto;
+              border-radius: 30px;
+            
+              .circle{
+                  background-color: #F3C110;
+                  border: 3px solid white;
+                  border-radius: 50%;
+                  width: 50%;
+                  height: 120px;
+                  margin: auto;
+                
+              }
+             
+                
+        
+            
+          }
+          .img{
+            position: absolute;
+           top: 0;
+           left: 0;
+           text-align: center;
+
+             img{
+               width: 200px;
+                float: left;
+                padding: 60px;
+
+               
+             }
+            }
+         .text{
+             color: #554D9F;
+             text-align: center;
+             padding: 15px;
+             padding-top: 60px;
+             
+         }
+
+
+
+        }
+     }
+
+     }
+
+
+
+
+
+
+    }
+}
+
+
+//end of upper
+}
+
+//end of wrap
+}
+
+//end of body
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+   
+    .wrap .upper .yellow .area .boxes .content{
+        
+
+            .img img{
+               width: 181px !important;
+                float: left !important;
+                padding: 26px !important;
+                margin-top: 52px;
+
+               
+             
+            }
+
+    }
+   
+
+    }
+    @media only screen and (min-width: 800px) and (max-width: 1000px) {
+        .upper{
+            height: 2800px !important;
+        }
+        .wrap .upper .yellow .area .boxes{
+            
+         .content{
+         
+            flex-direction: column !important;
+         
+            .box1{
+               
+                width: 70% !important;
+                margin: auto !important;
+                margin-bottom: 20px !important;
+                
+    
+              
+    
+              .img   img{
+                   width: 243px !important;
+                    float: left;
+                    padding: 83px !important;
+    
+                   
+                 }
+                
+             .text{
+                 
+                 padding-top: 80px !important;                
+             }
+    
+    
+    
+            }
+            
+            .box2{
+    
+                
+                width: 70% !important;
+                margin: auto !important;
+                margin-bottom: 20px !important;
+           
+    
+                
+             
+             
+                .img img{
+                   width: 243px !important;
+                    float: left;
+                    padding: 83px !important;
+    
+                   
+                 }
+                
+             .text{
+                
+                 padding-top: 80px !important;
+                 
+             }
+    
+    
+    
+            }
+        
+            .box3{
+      
+                width: 70% !important;
+                margin: auto !important;
+                margin-bottom: 20px !important;
+               
+    
+        
+                    .img img{
+                       width: 243px !important;
+                        float: left;
+                        padding: 83px !important;
+        
+                       
+                     }
+                    
+                 .text{
+                
+                     padding-top: 80px !important;
+                     
+                 }   
+        
+ 
+              }
+             
+    
+    
+    
+            }
+         }
+    
+         }
+    
+         @media only screen and (min-width: 600px) and (max-width: 800px) {
+          
+            .upper{
+                height: 2800px !important;
+            }
+            .wrap .upper .yellow .area .boxes{
+            
+             .content{
+              
+                flex-direction: column !important;
+           
+                .box1{
+                    
+                    width: 70% !important;
+                    margin: auto !important;
+                    margin-bottom: 20px !important;
+                    
+        
+                  
+              
+        
+                    .img img{
+                       width: 189px !important;
+                        float: left;
+                        padding: 64px !important;
+        
+                       
+                     }
+                    
+                 .text{
+                     
+                     padding-top: 80px !important;
+                     
+                 }
+        
+        
+        
+                }
+                
+                .box2{
+                 
+                    width: 70% !important;
+                    margin: auto !important;
+                    margin-bottom: 20px !important;
+                                    .img img{
+                       width: 189px !important;
+                        float: left;
+                        padding: 64px !important;
+        
+                       
+                     
+                    }
+                 .text{
+                  
+                     padding-top: 80px !important;
+                     
+                 }
+        
+        
+        
+                }
+            
+                .box3{
+                  
+                    width: 70% !important;
+                    margin: auto !important;
+                    margin-bottom: 20px !important;
+                
+                  
+            
+                        .img img{
+                           width: 189px !important;
+                            float: left;
+                            padding: 64px !important;
+            
+                           
+                         }
+                        
+                     .text{
+                         
+                         padding-top: 80px !important;
+                         
+                     }   
+            
+     
+                  }
+                 
+        
+        
+        
+                }
+             }
+        
+             }
+        
+    
+             @media only screen and (min-width: 400px) and (max-width: 600px) {
+             
+                .upper{
+                    height: 2800px !important;
+                }
+                .wrap .upper .yellow .area .boxes{
+                 .content{
+                 
+                    flex-direction: column !important;
+                    .box1{
+                       
+                        width: 90% !important;
+                        margin: auto !important;
+                        margin-bottom: 20px !important;
+                      
+    
+                        .img img{
+                           width: 159px !important;
+                            float: left;
+                            padding: 54px !important;
+                            margin-top: 39px;
+                           
+                         }
+                        
+                     .text{
+                       
+                         padding-top: 50px !important;
+                         
+                     }
+            
+            
+            
+                    }
+                    
+                    .box2{
+                       
+                        width: 90% !important;
+                        margin: auto !important;
+                        margin-bottom: 20px !important;
+                        
+                     
+                     
+            
+                        .img img{
+                           width: 159px !important;
+                            float: left;
+                            padding: 54px !important;
+                            margin-top: 39px;
+            
+                           
+                         }
+                        
+                     .text{
+                   
+                         padding-top: 80px !important;
+                         
+                     }
+            
+            
+            
+                    }
+                
+                    .box3{
+                       
+                        width: 90% !important;
+                        margin: auto !important;
+                        margin-bottom: 20px !important;
+                      
+            
+                        
+                
+                             .img img{
+                               width: 149px !important;
+                                float: left;
+                                padding: 54px !important;
+                                margin-top: 39px;
+                
+                               
+                             }
+                            
+                         .text{
+                          
+                             padding-top: 60px !important;
+                             
+                         }   
+                
+         
+                      }
+                     
+            
+            
+            
+                    }
+                 }
+            
+                 }
+            
+        
