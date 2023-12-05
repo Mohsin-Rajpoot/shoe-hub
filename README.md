@@ -1,3 +1,3 @@
-# responsive-e-commerece-page(scss/sass)
-responsive page with  sass(scss) for shoe store.
+# e-commerce-page(scss/sass)
+complete project ui with sass(scss) for shoe store.
 
